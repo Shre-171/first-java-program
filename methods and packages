@@ -1,0 +1,23 @@
+
+package javaapplication4;
+
+import java.util.Scanner;
+
+
+public class JavaApplication4 {
+
+   
+    public static void main(String[] args) {
+        
+        Scanner s=new Scanner(System.in);
+        System.out.println("ENTER MINUTES: ");
+        double min=s.nextDouble();
+        
+        long years=(long)(min/(60*24*365));
+        int days=(int)(min/60/24)%365;
+        System.out.println(min+ " minutes is approximately "+years+ "years and "+days+ "days");
+        
+       
+    }
+    
+}
