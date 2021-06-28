@@ -3,11 +3,11 @@ package javaapplication4;
 
 
 public class Employee{
-    String name,address;
-    String yearJoined;
+    String name,address,yearJoined;
+    
     
     public static void main(String[] args){
-        int yearjoined;
+       
         
    
         Employee emp1=new Employee();
